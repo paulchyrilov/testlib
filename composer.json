@@ -1,0 +1,25 @@
+{
+  "name": "paulchyrilov/testlib",
+  "description": "test",
+  "keywords": ["test library"],
+  "license": "MIT",
+  "type": "project",
+  "require": {
+    "php": ">=5.6.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "autoload-dev": {
+    "classmap": [
+      "tests/",
+      "database/"
+    ]
+  },
+  "scripts": {
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
