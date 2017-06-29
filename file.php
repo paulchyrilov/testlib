@@ -1,3 +1,3 @@
 <?php
 
-echo 'some strange changes 8';
+echo 'some strange changes 9';
