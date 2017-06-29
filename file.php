@@ -1,3 +1,3 @@
 <?php
 
-echo 'some strange changes 23456';
+echo 'some strange changes';
