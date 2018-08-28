@@ -1,25 +1,38 @@
 {
-  "name": "paulchyrilov/testlib",
-  "description": "test",
-  "keywords": ["test library"],
-  "license": "MIT",
-  "type": "project",
-  "require": {
-    "php": ">=5.6.4"
-  },
-  "autoload": {
-    "psr-4": {
-      "App\\": "app/"
-    }
-  },
-  "autoload-dev": {
-    "classmap": [
-      "tests/",
-      "database/"
-    ]
-  },
-  "scripts": {
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true
+    "name": "paulchyrilov/testlib",
+    "description": "test",
+    "keywords": [
+        "test library"
+    ],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=5.6.4",
+	"paulchyrilov/testlib3": "0.0.01",
+	"paulchyrilov/testlib2": "0.0.01"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git@github.com:paulchyrilov/testlib3.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:paulchyrilov/testlib2.git"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/",
+            "database/"
+        ]
+    },
+    "scripts": [],
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
