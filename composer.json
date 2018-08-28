@@ -8,8 +8,8 @@
     "type": "project",
     "require": {
         "php": ">=5.6.4",
-	"paulchyrilov/testlib3": "0.0.01",
-	"paulchyrilov/testlib2": "0.0.01"
+        "paulchyrilov/testlib3": "0.0.01",
+        "paulchyrilov/testlib2": "0.0.02"
     },
     "repositories": [
         {
